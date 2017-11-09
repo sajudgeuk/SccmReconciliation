@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="SccmDiscovery" max_length="40" name="x_23929_assetsccmr_sccmdiscovery" type="collection">
+        <element label="Computer name" max_length="50" name="computer_name" type="string"/>
+        <element label="Manufacturer" max_length="50" name="manufacturer" type="string"/>
+        <element label="Model" max_length="50" name="model" type="string"/>
+        <element label="Operating system" max_length="100" name="operating_system" type="string"/>
+        <element default="Not Calculated" label="Reconciled" max_length="20" name="reconciled" type="string"/>
+        <element label="Serial number" max_length="20" name="serial_number" type="string"/>
+        <element label="Top console user" max_length="20" name="top_console_user" type="string"/>
+        <index name="index">
+            <element name="serial_number"/>
+        </index>
+    </element>
+</database>

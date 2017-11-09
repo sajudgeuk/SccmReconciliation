@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="76e378214f1e030059cb53418110c761" sys_domain="global" table="x_23929_assetsccmr_importsccmdiscovery" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_computer_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>809191f94fd2430059cb53418110c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_serial_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>089191f94fd2430059cb53418110c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_top_console_user</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>889191f94fd2430059cb53418110c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_domain_workgroup</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>0c9191f94fd2430059cb53418110c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_operating_system</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>8c9191f94fd2430059cb53418110c7ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service_pack_level</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>009191f94fd2430059cb53418110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>809191f94fd2430059cb53418110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manufacturer</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>049191f94fd2430059cb53418110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_model</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>849191f94fd2430059cb53418110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_memory__kbytes_</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>089191f94fd2430059cb53418110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_free_disk_space__mb_</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>889191f94fd2430059cb53418110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_processor__ghz_</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>0c9191f94fd2430059cb53418110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_total_disk_space__mb_</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 15:00:51</sys_created_on>
+            <sys_id>8c9191f94fd2430059cb53418110c7ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_23929_assetsccmr_importsccmdiscovery" sys_domain="global" view="Default view">76e378214f1e030059cb53418110c761</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 15:00:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_23929_assetsccmr_importsccmdiscovery</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 18:12:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76e378214f1e030059cb53418110c761</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_23929_assetsccmr_importsccmdiscovery</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AssetSccmRecon" source="x_23929_assetsccmr">ec3138ad4fda030059cb53418110c7ba</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AssetSccmRecon">ec3138ad4fda030059cb53418110c7ba</sys_scope>
+            <sys_update_name>sys_ui_section_76e378214f1e030059cb53418110c761</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 18:12:51</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
