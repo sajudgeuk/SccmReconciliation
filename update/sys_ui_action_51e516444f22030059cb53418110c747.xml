@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>CreateAsset</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments>Create a hardware asset from discovered asset parsing the serial number to the new asset form.</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>CreateAsset</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[/*
+Create a new hardware asset record parsing existing serial number and then redirects to that newly created record.  
+*/
+createAsset();  
+
+function createAsset() {  
+var gr = new GlideRecord('alm_hardware');  
+gr.initialize();  
+gr.serial_number = current.serial_number.toString();  
+var assetID = gr.sys_id;  
+gr.insert();  
+//current.reconciled = "yes";
+current.setValue('reconciled', 'yes') ;
+current.update() ;
+action.setRedirectURL("./alm_hardware.do?sys_id=" + assetID);  
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-15 19:49:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>51e516444f22030059cb53418110c747</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>CreateAsset</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AssetSccmRecon" source="x_23929_assetsccmr">ec3138ad4fda030059cb53418110c7ba</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AssetSccmRecon">ec3138ad4fda030059cb53418110c7ba</sys_scope>
+        <sys_update_name>sys_ui_action_51e516444f22030059cb53418110c747</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-15 20:33:35</sys_updated_on>
+        <table>x_23929_assetsccmr_sccmdiscovery</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
