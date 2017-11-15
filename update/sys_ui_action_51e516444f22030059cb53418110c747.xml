@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments>Create a hardware asset from discovered asset parsing the serial number to the new asset form.</comments>
-        <condition/>
+        <condition>current.reconciled != "yes"</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -49,7 +49,7 @@ action.setRedirectURL("./alm_hardware.do?sys_id=" + assetID);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>51e516444f22030059cb53418110c747</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>CreateAsset</sys_name>
         <sys_overrides/>
         <sys_package display_value="AssetSccmRecon" source="x_23929_assetsccmr">ec3138ad4fda030059cb53418110c7ba</sys_package>
@@ -57,7 +57,7 @@ action.setRedirectURL("./alm_hardware.do?sys_id=" + assetID);
         <sys_scope display_value="AssetSccmRecon">ec3138ad4fda030059cb53418110c7ba</sys_scope>
         <sys_update_name>sys_ui_action_51e516444f22030059cb53418110c747</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-15 20:33:35</sys_updated_on>
+        <sys_updated_on>2017-11-15 20:42:54</sys_updated_on>
         <table>x_23929_assetsccmr_sccmdiscovery</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
